@@ -32,6 +32,7 @@ body {
   padding-right: 15px;
 }
 
+/* Верхний и нижний отступ */
 .section {
   padding: 94px 0;
 }
@@ -103,6 +104,7 @@ body {
   color: var(--accent-color);
 }
 
+/* рамка под хедером */
 .header {
   border: 1px solid #ececec;
 }
@@ -330,6 +332,7 @@ body {
 
 .portfolio {
   text-align: center;
+  padding-top: 0;
 }
 
 .btn-list {
@@ -376,8 +379,16 @@ body {
 }
 
 .photo {
-  margin-bottom: 20px;
   margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.image {
+  display: block;
+}
+
+.photo > .link {
+  margin-bottom: 0;
 }
 
 .photo:nth-child(3n) {
@@ -386,8 +397,8 @@ body {
 
 /*галлерея фото*/
 .portfolio-items {
-  margin-top: 0;
-  margin-bottom: 4px;
+  margin: 0px 24px 4px 24px;
+  padding-top: 20px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -397,13 +408,16 @@ body {
 }
 
 .portfolio-text {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0 24px 20px 24px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
+
 .border {
+  text-align: left;
+  margin-top: 0;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
