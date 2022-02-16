@@ -12,6 +12,14 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* сброс стилей */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 /*для скрытия маркеров и боковых отступов*/
 ul {
   list-style: none;
@@ -56,14 +64,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-/* сброс стилей */
-h1,
-h2,
-h3,
-p {
-  margin: 0;
 }
 
 /*логотип*/
